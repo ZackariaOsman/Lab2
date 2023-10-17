@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package lab2;
+package L2;
 
 import java.util.Comparator;
 
@@ -10,19 +10,18 @@ import java.util.Comparator;
  *
  * @author osman
  */
-public class nameComparator implements Comparator <Student> {
+public class ageComparator implements Comparator <Student> {
 
-    /**
-     *
-     * @param o1
-     * @param o2
-     * @return
-     */
     @Override
-    public int compare(Student o1, Student o2) {
+    public int compare(Student s1, Student s2) {
         //throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-        return
-                o1.getName().compareTo(o2.getName());
+        if(s1.getAge() == s2.getAge())
+            return s1.getName().compareTo(s2.getName());
+        else if (s1.getAge() >= s2.getAge())
+            return 1;
+        else 
+            return -1;
+        
     }
     
 }

@@ -2,16 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package lab2;
+package L2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
-import lab2.binarySearch;
-import static lab2.bubbleSort.bubbleSort;
-import static lab2.swap.swap;
+import L2.binarySearch;
+import static L2.bubbleSort.bubbleSort;
+import static L2.swap.swap;
 
 
 /**

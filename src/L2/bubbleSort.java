@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package lab2;
+package L2;
 
-import static lab2.swap.swap;
+import static L2.swap.swap;
 
 /**
  *
