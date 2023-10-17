@@ -88,6 +88,9 @@ public class AppDriver {
         //My program
         Scanner scan = new Scanner(System.in);
         
+        //Stuff in the cmd
+        //System.out.println("Welcome to the program " + args[0] + " " + args[1]);
+
         System.out.println("This is your current array of integers: ");
         System.out.println(Arrays.toString(b));
         System.out.println();
