@@ -12,6 +12,7 @@ import java.util.Scanner;
 import L2.binarySearch;
 import static L2.bubbleSort.bubbleSort;
 import static L2.swap.swap;
+import newpackage.StudentClass;
 
 
 /**
@@ -135,11 +136,13 @@ public class AppDriver {
         System.out.println();
         System.out.println();
         System.out.println("Program Ending...");
+        
+        StudentClass barry = new StudentClass();
 
       
                 
            
-                
+                //When you run your code nothing will happen. After you make your class you have to create an instance of this class. 
         
         //binary search test
         //System.out.println("Hello");
